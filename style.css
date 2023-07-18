@@ -1,0 +1,319 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Div1
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Content
+{
+    width: 800px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+.Content .Text
+{
+    width: 480px;
+    height: 500px;
+}
+.Content .Text p
+{
+    opacity: 0.5;
+}
+input
+{
+    border: 0;
+    outline: 0;
+    width: 200px;
+    height: 25px;
+    padding-left: 15px;
+}
+.Content .H1
+{
+    top: 225px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    color: black;
+    margin-left: 40px;
+    position: absolute;
+    align-items: center;
+    border-radius: 30px;
+    justify-content: center;
+    background-color: #fff;
+}
+.Content .H2
+{
+    top: 235px;
+    left: 350px;
+    display: flex;
+    color: black;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+}
+.Content .H3
+{
+    top: 250px;
+    left: 350px;
+    display: flex;
+    color: black;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+}
+
+.Content .H4
+{
+    top: 340px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    color: black;
+    margin-left: 40px;
+    position: absolute;
+    align-items: center;
+    border-radius: 30px;
+    justify-content: center;
+    background-color: #fff;
+}
+.Content .H5
+{
+    top: 350px;
+    left: 350px;
+    display: flex;
+    color: black;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+}
+.Content .H6
+{
+    top: 370px;
+    left: 350px;
+    display: flex;
+    color: black;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+}
+
+.Content .H7
+{
+    top: 460px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    color: black;
+    margin-left: 40px;
+    position: absolute;
+    align-items: center;
+    border-radius: 30px;
+    justify-content: center;
+    background-color: #fff;
+}
+.Content .H8
+{
+    top: 470px;
+    left: 350px;
+    display: flex;
+    color: black;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+}
+.Content .H9
+{
+    top: 484px;
+    left: 350px;
+    display: flex;
+    color: black;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+}
+button
+{
+    border: 0;
+    outline: 0;
+    width: 100px;
+    right: 320px;
+    height: 30px;
+    bottom: 200px;
+    border-radius: 5px;
+    position: absolute;
+    background-color: hsl(213, 96%, 18%);
+}
+button a
+{
+    display: flex;
+    color: #fff;
+    align-items: center;
+    text-decoration: none;
+    justify-content: center;
+}
+.Cards
+{
+    display: flex;
+    margin-top: 60px;
+    flex-direction: row;
+}
+.Cards .Card1
+{
+    width: 150px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 9px;
+    border: 1px solid transparent;
+}
+.Cards .Card1 img
+{
+    padding-bottom: 60px;
+}
+.Cards .Card2
+{
+    width: 150px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 9px;
+    border: 1px solid transparent;
+}
+.Cards .Card2 img
+{
+    padding-bottom: 60px;
+}
+.Cards .Card3
+{
+    width: 150px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 9px;
+    border: 1px solid transparent;
+}
+.Cards .Card3 img
+{
+    padding-bottom: 60px;
+}
+.Card1:hover
+{
+    transition: 0.5s;
+    border: 1px solid black;
+}
+.Card2:hover
+{
+    transition: 0.5s;
+    border: 1px solid black;
+}
+.Card3:hover
+{
+    transition: 0.5s;
+    border: 1px solid black;
+}
+.A
+{
+    width: 100px;
+    height: 30px;
+    color: #fff;
+    bottom: 200px;
+    display: flex;
+    border-radius: 5px;
+    position: absolute;
+    align-items: center;
+    text-decoration: none;
+    justify-content: center;
+    background-color: hsl(213, 96%, 18%);
+}
+.Card
+{
+    display: flex;
+    margin-top: 60px;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.Card .Card1
+{
+    width: 450px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 9px;
+    border: 1px solid transparent;
+}
+.Card .Card1:hover
+{
+    transition: 0.5s;
+    border: 1px solid black;
+}
+
+.Card .Card2
+{
+    width: 450px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 9px;
+    border: 1px solid transparent;
+}
+.Card .Card2:hover
+{
+    transition: 0.5s;
+    border: 1px solid black;
+}
+
+.Card .Card3
+{
+    width: 450px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 9px;
+    border: 1px solid transparent;
+}
+.Card .Card3:hover
+{
+    transition: 0.5s;
+    border: 1px solid black;
+}
+.Card .Card1 img
+{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    background-color:hsl(243, 100%, 62%);
+}
+.Card .Card2 img
+{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    background-color:hsl(243, 100%, 62%);
+}
+.Card .Card3 img
+{
+    width: 30px;
+    height: 30px;
+    display: none;
+    border-radius: 5px;
+    background-color:hsl(243, 100%, 62%);
+}
+.Content .Text1
+{
+    width: 480px;
+    height: 500px;
+    text-align: center;
+}
